@@ -1,6 +1,6 @@
 
 [tool.poetry]
-name = "proxybroker"
+name = "proxybroker2"
 version = "2.0.0-alpha.4"
 description = "The New (auto rotate) Proxy [Finder | Checker | Server]. HTTP(S) & SOCKS."
 authors = ["BlueT - Matthew Lien - 練喆明 <bluet@bluet.org>", "Denis Constverum <constverum@gmail.com>"]
@@ -10,7 +10,7 @@ documentation = "http://proxybroker.readthedocs.io/"
 license = "Apache-2.0"
 readme = "README.md"
 packages = []
-include = ["proxybroker/data/*.mmdb"]
+include = ["proxybroker2/data/*.mmdb"]
 classifiers = [
     'Development Status :: 5 - Production/Stable',
     'Environment :: Console',
@@ -54,7 +54,8 @@ requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
-proxybroker = "proxybroker.cli:cli"
+proxybroker2 = "proxybroker2.cli:cli"
+pb2 = "proxybroker2.cli:cli"
 
 [tool.black]
 py36 = true

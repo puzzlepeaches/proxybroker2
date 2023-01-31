@@ -14,7 +14,7 @@ from .utils import update_geoip_db
 
 def create_parser():
     parser = argparse.ArgumentParser(
-        prog='proxybroker',
+        prog='proxybroker2',
         add_help=False,
         description='Proxy [Finder | Checker | Server]',
         epilog='''Run '%(prog)s <command> --help'

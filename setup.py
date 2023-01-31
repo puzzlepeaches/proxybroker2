@@ -49,7 +49,7 @@ setup(
     package_data=PACKAGE_DATA,
     platforms='any',
     python_requires='>=3.5.3',
-    entry_points={'console_scripts': ['proxybroker = proxybroker.cli:cli']},
+    entry_points={'console_scripts': ['proxybroker2 = proxybroker.cli:cli']},
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Environment :: Console',
